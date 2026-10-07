@@ -1,0 +1,18 @@
+{
+  "project": "Dhango Nepal",
+  "version": "1.0.0",
+  "currency": "NPR",
+  "basePrice": 2000,
+  "offerPrice": 1500,
+  "storage": "local_multer",
+  "framework": "MERN",
+  "stages": [
+    "Phase 1: Foundation & Backend Architecture",
+    "Phase 2: Frontend Scaffolding, Design System & Storefront",
+    "Phase 3: 3D Customizer Studio Engine",
+    "Phase 4: Real-Time Virtual Try-On Suite",
+    "Phase 5: Cart, Checkout & Manual QR Payment Flow",
+    "Phase 6: Admin Dashboard & Order Management",
+    "Phase 7: SEO, Local GEO & E2E Playwright Verification"
+  ]
+}

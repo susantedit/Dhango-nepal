@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+dist
+.env
+.env.local
+server/uploads/artworks/*
+!server/uploads/artworks/.gitkeep
+server/uploads/receipts/*
+!server/uploads/receipts/.gitkeep
+.superpowers
+.planning/archive

@@ -1,0 +1,72 @@
+:root {
+  --bg-primary: #0A0C10;
+  --bg-surface: #12151C;
+  --bg-card: rgba(18, 21, 28, 0.7);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --accent-crimson: #E63946;
+  --accent-gold: #E0A96D;
+  --text-main: #F3F4F6;
+  --text-muted: #9CA3AF;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  overflow-x: hidden;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+/* Glassmorphism Refinement */
+.glass-panel {
+  background: rgba(18, 21, 28, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+}
+
+.glass-nav {
+  background: rgba(10, 12, 16, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* Tactile Button Feedback (Emil Kowalski micro-interactions) */
+.btn-tactile {
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0.1, 1), box-shadow 0.12s ease;
+}
+.btn-tactile:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+/* Glowing Accent Border */
+.glow-border {
+  position: relative;
+}
+.glow-border::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(135deg, rgba(230, 57, 70, 0.4), transparent, rgba(224, 169, 109, 0.3));
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* Custom Smooth Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0C10;
+}
+::-webkit-scrollbar-thumb {
+  background: #222734;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E63946;
+}

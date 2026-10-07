@@ -1,0 +1,481 @@
+{
+  "products": [
+    {
+      "id": "prod-classic-01",
+      "title": "Dhango Classic Crewneck T-Shirt",
+      "slug": "dhango-classic-crewneck",
+      "description": "100% Super-Combed Ring-Spun Cotton (220 GSM). Perfect everyday drape for vibrant DTG custom graphics and crisp text prints.",
+      "originalPrice": 2000,
+      "salePrice": 1500,
+      "category": "classic",
+      "colors": [
+        {
+          "name": "Jet Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Optical White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Heather Grey",
+          "hex": "#9E9E9E"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#1B2A4A"
+        },
+        {
+          "name": "Forest Green",
+          "hex": "#2D5A27"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "material": "100% Ring-Spun Cotton (220 GSM)",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "id": "prod-oversized-02",
+      "title": "Dhango Oversized Streetwear Tee",
+      "slug": "dhango-oversized-streetwear",
+      "description": "Heavyweight 240 GSM drop-shoulder boxy fit inspired by Kathmandu streetwear culture. Built to showcase bold chest and back designs.",
+      "originalPrice": 2000,
+      "salePrice": 1500,
+      "category": "oversized",
+      "colors": [
+        {
+          "name": "Jet Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Optical White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Heather Grey",
+          "hex": "#9E9E9E"
+        },
+        {
+          "name": "Crimson Red",
+          "hex": "#991B1B"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "material": "Heavyweight 240 GSM Pre-Shrunk Cotton",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "id": "prod-heritage-03",
+      "title": "Nepal Heritage Typography Tee",
+      "slug": "nepal-heritage-typography",
+      "description": "Nepali calligraphy and modern typography print on ultra-soft bio-washed combed cotton.",
+      "originalPrice": 2000,
+      "salePrice": 1500,
+      "category": "streetwear",
+      "colors": [
+        {
+          "name": "Jet Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Optical White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Forest Green",
+          "hex": "#2D5A27"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "material": "220 GSM Bio-Washed Cotton",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "id": "prod-anime-04",
+      "title": "Dhango Anime & Cyberpunk Edition",
+      "slug": "dhango-anime-cyberpunk",
+      "description": "Ultra-vibrant DTG color fidelity optimized for intricate anime artwork, manga panels, and high-contrast digital illustrations.",
+      "originalPrice": 2000,
+      "salePrice": 1500,
+      "category": "streetwear",
+      "colors": [
+        {
+          "name": "Jet Black",
+          "hex": "#111111"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#1B2A4A"
+        },
+        {
+          "name": "Optical White",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "material": "220 GSM Combed Cotton",
+      "featured": true,
+      "inStock": true
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "DHG-61709",
+      "firebaseUid": null,
+      "customer": {
+        "name": "Suman Nepal",
+        "phone": "9841234567",
+        "province": "Bagmati (Province 3)",
+        "city": "Kathmandu",
+        "streetAddress": "New Baneshwor"
+      },
+      "items": [
+        {
+          "productId": "prod-classic-01",
+          "title": "Dhango Classic Crewneck T-Shirt",
+          "color": "Jet Black",
+          "size": "L",
+          "quantity": 2,
+          "unitPrice": 1500
+        }
+      ],
+      "subtotal": 3000,
+      "deliveryFee": 0,
+      "totalAmount": 3000,
+      "payment": {
+        "method": "QR_TRANSFER",
+        "transactionCode": "FONEPAY-TEST-998822",
+        "receiptSlipUrl": "/uploads/receipts/test-slip.jpg",
+        "status": "verified",
+        "verifiedAt": "2026-10-07T03:45:58.744Z"
+      },
+      "orderStatus": "payment_verified",
+      "timeline": [
+        {
+          "status": "received",
+          "note": "Order submitted with QR transfer payment slip.",
+          "timestamp": "2026-10-07T03:45:36.455Z"
+        },
+        {
+          "status": "payment_verified",
+          "note": "QR Payment verified by admin.",
+          "timestamp": "2026-10-07T03:45:58.744Z"
+        }
+      ],
+      "createdAt": "2026-10-07T03:45:36.455Z"
+    },
+    {
+      "orderId": "DHG-46706",
+      "firebaseUid": null,
+      "customer": {
+        "name": "Suman Nepal",
+        "phone": "9841234567",
+        "province": "Bagmati (Province 3)",
+        "city": "Kathmandu",
+        "streetAddress": "New Baneshwor"
+      },
+      "items": [
+        {
+          "productId": "prod-classic-01",
+          "title": "Dhango Classic Crewneck T-Shirt",
+          "color": "Jet Black",
+          "size": "L",
+          "quantity": 2,
+          "unitPrice": 1500
+        }
+      ],
+      "subtotal": 3000,
+      "deliveryFee": 0,
+      "totalAmount": 3000,
+      "payment": {
+        "method": "QR_TRANSFER",
+        "transactionCode": "FONEPAY-TEST-998822",
+        "receiptSlipUrl": "/uploads/receipts/test-slip.jpg",
+        "status": "verified",
+        "verifiedAt": "2026-10-07T03:20:33.186Z"
+      },
+      "orderStatus": "payment_verified",
+      "timeline": [
+        {
+          "status": "received",
+          "note": "Order submitted with QR transfer payment slip.",
+          "timestamp": "2026-10-07T03:20:32.889Z"
+        },
+        {
+          "status": "payment_verified",
+          "note": "QR Payment verified by admin.",
+          "timestamp": "2026-10-07T03:20:33.186Z"
+        }
+      ],
+      "createdAt": "2026-10-07T03:20:32.889Z"
+    }
+  ],
+  "inventory": [
+    {
+      "sku": "TSHIRT-JETBLACK-S",
+      "color": "Jet Black",
+      "colorHex": "#111111",
+      "size": "S",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-JETBLACK-M",
+      "color": "Jet Black",
+      "colorHex": "#111111",
+      "size": "M",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-JETBLACK-L",
+      "color": "Jet Black",
+      "colorHex": "#111111",
+      "size": "L",
+      "currentStock": 36,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-JETBLACK-XL",
+      "color": "Jet Black",
+      "colorHex": "#111111",
+      "size": "XL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-JETBLACK-XXL",
+      "color": "Jet Black",
+      "colorHex": "#111111",
+      "size": "XXL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-OPTICALWHITE-S",
+      "color": "Optical White",
+      "colorHex": "#FFFFFF",
+      "size": "S",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-OPTICALWHITE-M",
+      "color": "Optical White",
+      "colorHex": "#FFFFFF",
+      "size": "M",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-OPTICALWHITE-L",
+      "color": "Optical White",
+      "colorHex": "#FFFFFF",
+      "size": "L",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-OPTICALWHITE-XL",
+      "color": "Optical White",
+      "colorHex": "#FFFFFF",
+      "size": "XL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-OPTICALWHITE-XXL",
+      "color": "Optical White",
+      "colorHex": "#FFFFFF",
+      "size": "XXL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-HEATHERGREY-S",
+      "color": "Heather Grey",
+      "colorHex": "#9E9E9E",
+      "size": "S",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-HEATHERGREY-M",
+      "color": "Heather Grey",
+      "colorHex": "#9E9E9E",
+      "size": "M",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-HEATHERGREY-L",
+      "color": "Heather Grey",
+      "colorHex": "#9E9E9E",
+      "size": "L",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-HEATHERGREY-XL",
+      "color": "Heather Grey",
+      "colorHex": "#9E9E9E",
+      "size": "XL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-HEATHERGREY-XXL",
+      "color": "Heather Grey",
+      "colorHex": "#9E9E9E",
+      "size": "XXL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-NAVYBLUE-S",
+      "color": "Navy Blue",
+      "colorHex": "#1B2A4A",
+      "size": "S",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-NAVYBLUE-M",
+      "color": "Navy Blue",
+      "colorHex": "#1B2A4A",
+      "size": "M",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-NAVYBLUE-L",
+      "color": "Navy Blue",
+      "colorHex": "#1B2A4A",
+      "size": "L",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-NAVYBLUE-XL",
+      "color": "Navy Blue",
+      "colorHex": "#1B2A4A",
+      "size": "XL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-NAVYBLUE-XXL",
+      "color": "Navy Blue",
+      "colorHex": "#1B2A4A",
+      "size": "XXL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-FORESTGREEN-S",
+      "color": "Forest Green",
+      "colorHex": "#2D5A27",
+      "size": "S",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-FORESTGREEN-M",
+      "color": "Forest Green",
+      "colorHex": "#2D5A27",
+      "size": "M",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-FORESTGREEN-L",
+      "color": "Forest Green",
+      "colorHex": "#2D5A27",
+      "size": "L",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-FORESTGREEN-XL",
+      "color": "Forest Green",
+      "colorHex": "#2D5A27",
+      "size": "XL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-FORESTGREEN-XXL",
+      "color": "Forest Green",
+      "colorHex": "#2D5A27",
+      "size": "XXL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-CRIMSONRED-S",
+      "color": "Crimson Red",
+      "colorHex": "#991B1B",
+      "size": "S",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-CRIMSONRED-M",
+      "color": "Crimson Red",
+      "colorHex": "#991B1B",
+      "size": "M",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-CRIMSONRED-L",
+      "color": "Crimson Red",
+      "colorHex": "#991B1B",
+      "size": "L",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-CRIMSONRED-XL",
+      "color": "Crimson Red",
+      "colorHex": "#991B1B",
+      "size": "XL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    },
+    {
+      "sku": "TSHIRT-CRIMSONRED-XXL",
+      "color": "Crimson Red",
+      "colorHex": "#991B1B",
+      "size": "XXL",
+      "currentStock": 40,
+      "lowStockThreshold": 10
+    }
+  ]
+}

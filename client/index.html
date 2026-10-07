@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Dhango Nepal | Custom T-Shirt Printing & Real-Time Virtual Try-On</title>
+    
+    <!-- SEO & Nepal GEO Meta Tags -->
+    <meta name="description" content="Design custom printed t-shirts in Nepal with Dhango Nepal. Experience 3D studio customization and real-time virtual try-on. Special offer Rs. 1,500 with delivery across Nepal." />
+    <meta name="keywords" content="custom tshirt print in nepal, tshirt printing kathmandu, customized t shirts nepal, dhango nepal, online t shirt design nepal, personalized tees pokhara" />
+    <meta name="author" content="Dhango Nepal" />
+    <meta name="geo.region" content="NP-BA" />
+    <meta name="geo.placename" content="Kathmandu" />
+    <meta name="geo.position" content="27.6915;85.3420" />
+    <meta name="ICBM" content="27.6915, 85.3420" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dhangonepal.com/" />
+    <meta property="og:title" content="Dhango Nepal | Custom T-Shirt Printing & Virtual Try-On" />
+    <meta property="og:description" content="Design custom printed t-shirts in Nepal in our 3D Studio and try them on live. Special offer Rs. 1,500 with delivery across Nepal." />
+    <meta property="og:image" content="/logo.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Dhango Nepal | Custom T-Shirt Printing & Virtual Try-On" />
+    <meta property="twitter:description" content="Design custom printed t-shirts in Nepal with 3D studio and real-time virtual try-on. Flat Rs. 1,500." />
+    <meta property="twitter:image" content="/logo.jpg" />
+
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS with Emil Kowalski & Dhango Nepal Theme -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              crimson: {
+                DEFAULT: '#E63946',
+                hover: '#D62828',
+                light: '#FF6B6B',
+                dark: '#9D0208'
+              },
+              gold: {
+                DEFAULT: '#E0A96D',
+                light: '#F4D06F',
+                dark: '#B08968'
+              },
+              surface: {
+                base: '#0A0C10',
+                card: '#12151C',
+                elevated: '#1A1E27',
+                overlay: '#222734'
+              }
+            },
+            fontFamily: {
+              sans: ['Outfit', 'Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace']
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#0A0C10] text-[#F3F4F6] font-sans antialiased selection:bg-[#E63946] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

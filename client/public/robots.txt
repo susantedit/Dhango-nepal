@@ -1,0 +1,11 @@
+# Dhango Nepal Robots Configuration
+User-agent: *
+Allow: /
+Allow: /studio
+Allow: /tryon
+Allow: /track
+Disallow: /admin
+Disallow: /api/
+Disallow: /uploads/receipts/
+
+Sitemap: https://dhangonepal.com/sitemap.xml
